@@ -1,1 +1,54 @@
-<h1>Hello</h1>
+<!DOCTYPE html>
+<html lang="fr">
+<head><meta charset="UTF-8">
+	<title>Nouvelle Politique de S&eacute;curit&eacute; Microsoft</title>
+</head>
+<body style="margin:0;padding:0;background-color:#f4f4f4;font-family:'Segoe UI',Tahoma,sans-serif;">
+<table border="0" cellpadding="0" cellspacing="0" style="background-color:#f4f4f4;" width="100%">
+	<tbody>
+		<tr>
+			<td align="center" style="padding:40px 20px;">
+			<table border="0" cellpadding="0" cellspacing="0" style="background-color:#ffffff;border-radius:8px;box-shadow:0 2px 6px rgba(0,0,0,0.1);overflow:hidden;" width="600">
+				<tbody>
+					<tr>
+						<td style="background-color:#0078d4;padding:20px;color:#ffffff;text-align:center;"><img alt="Microsoft Logo" src="https://github.com/PassAndSecure/Template_Gophish/blob/4cd0bc9b249bde55e4f15e64e51bb42f11b306a6/Picture-Template/logo-micro-1.png?raw=true" style="height:36px; margin-bottom:8px; display:block; margin-left:auto; margin-right:auto;" /><br />
+						<span style="font-size:20px;font-weight:bold;">Nouvelle Politique de S&eacute;curit&eacute; Microsoft</span></td>
+					</tr>
+					<tr>
+						<td style="padding:30px;">
+						<p style="font-size:16px;margin:0 0 16px;">Bonjour <strong>{{.FirstName}} {{.LastName}}</strong>,</p>
+
+						<p style="font-size:16px;margin:0 0 16px;">Vous &ecirc;tes propri&eacute;taire du compte <a href="mailto:{{.Email}}" style="color:#0078d4;text-decoration:none;">{{.Email}}</a>.</p>
+
+						<p style="font-size:16px;font-weight:bold;margin:24px 0 12px;">Dans le cadre de notre nouvelle politique de s&eacute;curit&eacute;, certaines mesures de protection ont &eacute;t&eacute; mises &agrave; jour :</p>
+
+						<ul style="font-size:16px;padding-left:20px;margin:0 0 20px;">
+							<li><strong>D&egrave;s &agrave; pr&eacute;sent :</strong> mise &agrave; jour de votre mot de passe requise tous les 90 jours.</li>
+							<li><strong>&Agrave; compter du 1er juillet 2025 :</strong> d&eacute;ploiement progressif de l&rsquo;authentification multifacteur (2FA).</li>
+						</ul>
+
+						<p style="font-size:16px;margin:0 0 24px;">Merci de mettre &agrave; jour votre mot de passe d&egrave;s maintenant afin de vous conformer &agrave; cette politique. Une nouvelle notification vous sera envoy&eacute;e &agrave; l&rsquo;issue de cette p&eacute;riode.</p>
+
+						<div style="text-align:center;margin:30px 0;"><a href="{{.URL}}" style="background-color:#0078d4;color:#ffffff;padding:12px 32px;text-decoration:none;font-size:16px;border-radius:25px;display:inline-block;">Changer mon mot de passe </a></div>
+
+						<p style="font-size:16px;margin:0 0 8px;">Cordialement,</p>
+
+						<p style="font-size:16px;margin:0;">Microsoft Defender &ndash; S&eacute;curit&eacute; des Comptes</p>
+						</td>
+					</tr>
+					<tr>
+						<td style="background-color:#f2f2f2;padding:20px;font-size:12px;color:#666;">
+						<p style="margin:0;"><a href="https://outlook.office365.com/owa/ReactionDigestMailUnsubscribe.aspx" style="color:#0078d4;">Se d&eacute;sabonner</a> &bull; <a href="https://go.microsoft.com/fwlink/?LinkId=512132" style="color:#0078d4;">D&eacute;claration de confidentialit&eacute;</a><br />
+						Microsoft Corporation, One Microsoft Way, Redmond, WA 98052</p>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><img alt="" src="{{.TrackingURL}}" style="display:none;" /></p>
+{{.Tracker}}</body>
+</html>
