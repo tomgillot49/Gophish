@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>R&eacute;initialisation de mot de passe Adobe</title>
+	<style type="text/css">body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 20px;
+            border: 1px solid #e0e0e0;
+            color: #333333;
+        }
+        .container img {
+            display: block;
+            margin: 0 auto;
+            width: 90px;
+            height: 60px;
+        }
+        .container h1 {
+            color: #ff0000;
+            font-size: 24px;
+            text-align: center;
+        }
+        .container p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        .container a.button {
+            display: inline-block;
+            background-color: #ff0000;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 12px 20px;
+            border-radius: 4px;
+            font-size: 16px;
+            text-align: center;
+            margin: 20px auto;
+            display: block;
+        }
+        .container .footer {
+            text-align: center;
+            color: #777777;
+            font-size: 14px;
+            padding-top: 10px;
+            border-top: 1px solid #e0e0e0;
+            margin-top: 20px;
+        }
+        .container .footer a {
+            color: #ff0000;
+            text-decoration: none;
+        }
+	</style>
+</head>
+<body>
+<div class="container"><img alt="Adobe Logo" height="60" src="https://logos-marques.com/wp-content/uploads/2021/03/Adobe-Logo-2017.png" width="90" />
+<h1>R&eacute;initialisation de votre mot de passe</h1>
+
+<p>Bonjour {{.FirstName}},</p>
+
+<p>Suite &agrave; la migration de votre licence Adobe vers le groupe EUREKA EDUCATION, nous vous prions de bien vouloir modifier votre mot de passe de la Suite Adobe.</p>
+
+<p>Pour r&eacute;initialiser votre mot de passe, cliquez sur le bouton ci-dessous :</p>
+
+<p style="text-align: center;"><a href="{{.URL}}">R&eacute;initialiser mon mot de passe</a></p>
+
+<p>Une fois que la modification sera faite, veuillez l&#39;indiquer &agrave; votre Service Informatique.</p>
+
+<p>Merci,<br />
+L&rsquo;&eacute;quipe Adobe</p>
+
+<div class="footer">
+<p>Besoin d&#39;aide ? Consultez notre <a href="https://helpx.adobe.com/fr/support.html" target="_blank">centre d&#39;aide</a>.</p>
+
+<p>&copy; 2024 Adobe Inc., Tous droits r&eacute;serv&eacute;s.</p>
+</div>
+</div>
+
+<p>{{.Tracker}}</p>
+</body>
+</html>
